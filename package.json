@@ -1,0 +1,20 @@
+{
+  "name": "openlayers_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.6",
+    "@types/ol": "^6.5.2",
+    "@types/three": "^0.129.1",
+    "dat.gui": "^0.7.7",
+    "ol": "^6.5.0",
+    "parcel-bundler": "^1.12.5",
+    "three": "^0.130.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "start": "parcel public/*.html --log-level 3",
+    "build": "parcel build public/*.html"
+  }
+}
